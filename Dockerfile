@@ -35,9 +35,9 @@ RUN ln -s /usr/local/bin/node /usr/bin/node
 #RUN source /etc/profile
 
 # install npm
-#ADD https://npmjs.org/install.sh /usr/local/node-v4.5.0/
-#RUN sh install.sh
-RUN curl -L https://npmjs.org/install.sh | sh
+ADD https://npmjs.org/install.sh /usr/local/node-v4.5.0/
+RUN sh install.sh
+#RUN curl -L https://npmjs.org/install.sh | sh
 
 # install express
 #RUN npm install express -g
