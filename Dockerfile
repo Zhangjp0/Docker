@@ -31,8 +31,8 @@ RUN ./configure --prefix=/usr/local/
 RUN make
 RUN make install
 RUN ln -s /usr/local/bin/node /usr/bin/node
-RUN echo "export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin" >> /etc/profile
-RUN source /etc/profile
+#RUN echo "export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin" >> /etc/profile
+#RUN source /etc/profile
 
 # install npm
 #ADD https://npmjs.org/install.sh /usr/local/node-v4.5.0/
