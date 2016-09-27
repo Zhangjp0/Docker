@@ -1,7 +1,8 @@
 # Dockerfile to build caravel container images
 # based on centos
 
-FROM centos:7.2.1511
+#FROM centos:7.2.1511
+FROM centos:7.0
 MAINTAINER xingzhi
 
 # install base
