@@ -2,7 +2,7 @@
 # based on centos
 
 #FROM centos:7.2.1511
-FROM centos:7.0
+FROM centos:7
 MAINTAINER xingzhi
 
 # install base
