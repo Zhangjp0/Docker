@@ -54,6 +54,11 @@ RUN npm run prod
 WORKDIR /usr/local/caravel-master/
 RUN python setup.py install
 
+# run
+RUN caravel db upgrade
+RUN caravel init
+RUN caravel load_examples
+
 # Deploy 
 EXPOSE 8088 
 ENTRYPOINT ["caravel"] 
