@@ -18,7 +18,7 @@ RUN pip install --upgrade pip
 RUN yum install -y libffi-devel
 RUN yum install -y libgsasl-devel
 RUN yum install -y libmemcached-devel
-RUN yum install -y python
+RUN yum install -y numpy
 RUN yum install -y python-devel
 RUN yum install -y openssl
 RUN yum install -y openssl-devel
