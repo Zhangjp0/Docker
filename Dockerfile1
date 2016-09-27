@@ -27,7 +27,8 @@ WORKDIR /usr/local/
 ADD https://github.com/airbnb/caravel/archive/master.zip /usr/local/
 RUN unzip master.zip
 WORKDIR /usr/local/caravel-master/
-RUN pip install . -i https://pypi.tuna.tsinghua.edu.cn/simple/
+#RUN pip install . -i https://pypi.tuna.tsinghua.edu.cn/simple/
+RUN pip install caravel
 
 # Deploy 
 EXPOSE 8088 
