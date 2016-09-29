@@ -60,6 +60,6 @@ RUN python setup.py install
 #RUN caravel load_examples
 
 # Deploy 
-EXPOSE 8088 
-ENTRYPOINT ["caravel"] 
-CMD ["runserver"]
+#EXPOSE 8088 
+#ENTRYPOINT ["caravel"] 
+#CMD ["runserver"]
