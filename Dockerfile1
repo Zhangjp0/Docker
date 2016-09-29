@@ -31,6 +31,6 @@ WORKDIR /usr/local/caravel-master/
 RUN pip install caravel
 
 # Deploy 
-EXPOSE 8088 
-ENTRYPOINT ["caravel"] 
-CMD ["runserver"]
+#EXPOSE 8088 
+#ENTRYPOINT ["caravel"] 
+#CMD ["runserver"]
